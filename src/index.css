@@ -533,7 +533,8 @@ nav img {
   width: 800px;
 }
 .lists-box{
-  padding: 50px 12% 100px 12%;
+  padding: 100px 12% 100px 12%;
+  margin: -200px 0 -100px;
   background: linear-gradient(180deg, #DEDEDE 0%, #CCCBCB 9.5%, #9D9A9A 25%, #9D9A9A 79.5%, #C5C4C4 94.84%, #DEDEDE 100%);
   ;
 }

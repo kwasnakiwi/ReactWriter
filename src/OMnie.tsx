@@ -7,11 +7,11 @@ function OMnie() {
         <div className="web-top2-text">
           <h1 className="web-top2-title">Kim właściwie jestem?</h1>
           <p className="web-top2-paragraph">
-            Jestem osobą homoseksualną, choć nie utożsamiam się z określeniem „gej”, które moim zdaniem zbyt często zamyka tożsamość w komercyjnych stereotypach. Od początku lat 90. zmagam się z depresją. Mieszkam w Warszawie i jestem osobą niewierzącą.<br/><br/>
-
-            W latach 2014–2015 prowadziłem blog modowy Fashion Pathology, wcielając się w postać Miss Gizzi. Stylizacje i obecność na salonach były częścią artystycznego happeningu, który później wykorzystałem jako materiał do powieści o showbiznesie.<br/><br/>
-
-            W latach 2018–2019 grałem rolę pisarza w serialu Barwy szczęścia.
+          Jestem pisarzem, autorem powieści kryminalnych i obyczajowych, a moja literacka droga zaczęła się w 1997 roku od tomiku „Zgorszenia wstają od stołów”. Oficjalny debiut nastąpił w 2001 roku wraz z wydaniem zbioru opowiadań „Copyright”. Jako osoba homoseksualna, nie utożsamiam się z określeniem „gej”, które często zamyka tożsamość w stereotypach. Od wczesnych lat 90. zmagam się z depresją. Mieszkam w Warszawie i jestem niewierzący.
+          <br/><br/>
+W latach 2014–2015 prowadziłem blog modowy Fashion Pathology, wcielając się w postać Miss Gizzi. Stylizacje i obecność na salonach były częścią artystycznego happeningu, który później wykorzystałem jako materiał do powieści o showbiznesie. 
+<br/><br/>
+W latach 2018–2019 grałem rolę pisarza w serialu Barwy szczęścia.
           </p>
         </div>
         <img src={omnieimg}/>
