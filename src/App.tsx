@@ -13,7 +13,6 @@ import Book6 from './BooksSites/Book6'
 import Books from './Books'
 import './App.css'
 import ScrollToTop from './ScrollToTop'
-import Carousel from './Carousel'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
@@ -25,7 +24,6 @@ function App() {
       <Router>
         <Navbar />
         <ScrollToTop />
-        <Carousel />
         <Routes>
           <Route index element={<HomePage />} />
           <Route path='/about_me' element={<OMnie />} />

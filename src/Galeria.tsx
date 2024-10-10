@@ -22,9 +22,10 @@ import witkowski21 from './assets/images/e874402c03fc987de58a4a8e08f967f6.jpeg';
 // import witkowski22 from './assets/images/49ac193ee9b68c49a8f72738ebafe1e2.jpeg';
 import arrow1 from './assets/images/Arrow 7.png';
 import arrow2 from './assets/images/Arrow 8.png';
+import Carousel from './Carousel';
 
 function Galeria() {
-	return(
+	return(<>
 		<div className="center-container">
       <h1 className='witkowski-img-title'>Z życia na czerwonym dywanie</h1>
 			<div className='witkowski-imgs-box'>
@@ -91,7 +92,21 @@ function Galeria() {
 					<img src={arrow1}/>
 				</div>
 			</div>
+			<div className="images-wrapper">
+          <div className="witkowski-imgs">
+            <img src={witkowski1}/>
+            <img className='hom' src={witkowski2}/>
+            <img className='hom' src={witkowski3}/>
+          </div>
+          <div className='witkowski-imgs'>
+            <img src={witkowski13}/>
+            <img src={witkowski21}/>
+            <img src={witkowski20}/>
+          </div>
+        </div>
 		</div>
+		<Carousel />
+		</>
 	)
 }
 
